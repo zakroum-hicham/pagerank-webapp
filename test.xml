@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph>
+    <nodes>
+        <node id="A"/>
+        <node id="B"/>
+        <node id="C"/>
+        <node id="D"/>
+        <node id="E"/>
+        <node id="F"/>
+        <node id="G"/>
+        <node id="H"/>
+        <node id="I"/>
+        <node id="L"/>
+        <node id="M"/>
+    </nodes>
+    <edges>
+        <edge source="B" target="C"/>
+        <edge source="C" target="B"/>
+        <edge source="D" target="A"/>
+        <edge source="D" target="B"/>
+        <edge source="E" target="B"/>
+        <edge source="E" target="D"/>
+        <edge source="E" target="F"/>
+        <edge source="F" target="B"/>
+        <edge source="F" target="E"/>
+        <edge source="G" target="B"/>
+        <edge source="G" target="E"/>
+        <edge source="H" target="B"/>
+        <edge source="H" target="E"/>
+        <edge source="I" target="E"/>
+        <edge source="I" target="B"/>
+        <edge source="L" target="E"/>
+        <edge source="M" target="E"/>
+    </edges>
+</graph>

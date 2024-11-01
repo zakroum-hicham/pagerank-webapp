@@ -1,0 +1,39 @@
+<graph>
+    <node id="B">
+        <target>C</target>
+    </node>
+    <node id="C">
+        <target>B</target>
+    </node>
+    <node id="D">
+        <target>A</target>
+        <target>B</target>
+    </node>
+    <node id="E">
+        <target>B</target>
+        <target>D</target>
+        <target>F</target>
+    </node>
+    <node id="F">
+        <target>B</target>
+        <target>E</target>
+    </node>
+    <node id="G">
+        <target>B</target>
+        <target>E</target>
+    </node>
+    <node id="H">
+        <target>B</target>
+        <target>E</target>
+    </node>
+    <node id="I">
+        <target>B</target>
+        <target>E</target>
+    </node>
+    <node id="L">
+        <target>E</target>
+    </node>
+    <node id="M">
+        <target>E</target>
+    </node>
+</graph>
